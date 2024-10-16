@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This Library Fights Facists</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <section class="head">
+        <h1 id="title">This Library Fights Facists</h1>
+        <h2 id="tagline">Well Behaved Books (Seldom Make History) </h2>
+        <button id="button">Give me a Banned Book</button>
+    </section>
+
+    <hr/>
+    <hr/>
+
+    <div class="d-flex">
+
+        <div class="side_one">
+            
+            <section class="book_title">
+                <h3>Title: </h3>
+                <span id="book_name"></span>
+            </section>
+
+            <hr/>
+
+            <section class="book_author">
+                <h3>Author: </h3>
+                <span id="author_name"></span>
+            </section>
+            
+        </div>
+
+        <div class="side_two"> 
+
+            <img alt="book cover image" src="" class="hidden" id="cover"/>
+
+        </div>
+
+    </div>
+
+    <hr/>
+    <hr/>
+
+    <div class="d-flex">
+
+        <div class="leftpane">
+          <h3>Banned in </h3>
+          <hr/>
+          <span id="state_name"></span>
+          <!-- <span id="district_name"></span> -->
+        </div>
+
+        <div class="middlepane">
+            <h3 id="pane_padding">Since</h3>
+            <hr/>
+            <span id="date"></span>
+        </div>
+
+        <div class="rightpane">
+            <h3 id="pane_padding">Learn More</h3>
+            <hr/>
+            <div id="pane_padding">
+                
+                <div id="description"></div>
+                <p class="hidden">Purchase <a href="" id="purchase" target="_blank">HERE</a></p>
+            </div>
+        </div>
+    </div>
+
+    <hr/>
+
+    <p id="footer"> Learn more about banned books <a href="https://www.ala.org/bbooks"> here </a></p>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
